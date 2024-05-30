@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>My Website</title>
+    <title>Vitality Step Challenge</title>
     <link rel="stylesheet" href="src/css/main.css" />
   </head>
   <body>
@@ -16,35 +16,71 @@
         <ul class="nav nav-pills">
           <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
           <li class="nav-item"><a href="#" class="nav-link">About</a></li>
         </ul>
       </header>
     </div>
 
     <div class="container">
-      <form class="needs-validation">
-          <div class="form-group row">
-        <label for="firstName" class="col-sm-2 col-form-label">First name</label>
-        <input type="text" class="form-control" id="firstName" placeholder="Son" value="" required="">
+      <form>
+          <div class="row g-3">
+            <div class="col">
+              <label for="firstName">First name</label>
+              <input type= "text" class="form-control" id="firstName" placeholder="Son">
+            </div>
+
+            <div class="col">
+              <label for="lastName">Last name</label>
+              <input type="text" class="form-control" id="lastName" placeholder="Goku">
+            </div>
           </div>
-
-          <div class="form-group row">
-        <label for="lastName" class="col-sm-2 col-form-label">Last name</label>
-        <input type="text" class="form-control" id="lastName" placeholder="Goku" value="" required="">
-    </div>
-
-    <div class="form-group row">
-        <label for="stepCount" class="col-sm-2 col-form-label">Step count</label>
-        <input type="text" class="form-control" id="stepCount" placeholder="5000" value="" required="">
-    </div>
-
-    <br>
-    <button type="submit" class="btn btn-primary mb-2">Submit</button>
+          <div class="form-group">
+            <label for="stepCount">Step Count</label>
+            <input type="text" class="form-control" id="stepCount" placeholder="9000">
+          </div>
+        
+        <br>
+        <button type="submit" class="btn btn-primary mb-2">Submit</button>
 
       </form>
     </div>
+
+    <br>
+
+    <div class="container">
+      <h2 class="fs-4">Steps challenge leaderboard</h1>
+    
+        <table class="table table-striped">
+          <thead class="table-dark">
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First name</th>
+              <th scope="col">Last name</th>
+              <th scope="col">Steps</th>
+              <th scope="col">Badges</th>
+            </tr>
+          </thead>
+          <thead>
+            <tbody class="table-group-divider">
+              <tr>
+                <th scope="row">1</th>
+                <td>Roanoa</td>
+                <td>Zoro</td>
+                <td>9000</td>
+                <td>Insert Badge here</td>
+              </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jotaro</td>
+                  <td>Kujo</td>
+                  <td>20000</td>
+                  <td>Insert Badge here</td>
+                </tr>
+              </tbody>
+            </thead>
+        </table>
+    </div>
+
     <script src="src/js/main.js"></script>
   </body>
 </html>
