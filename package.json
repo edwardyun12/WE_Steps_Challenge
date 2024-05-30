@@ -1,5 +1,5 @@
 {
-  "name": "WE_Steps_Challenge",
+  "name": "we_steps_challenge",
   "version": "1.0.0",
   "description": "Steps Challenge for WE",
   "main": "index.js",
@@ -17,10 +17,10 @@
   },
   "homepage": "https://github.com/edwardyun12/WE_Steps_Challenge#readme",
   "dependencies": {
+    "bootstrap": "^5.3.3"
   },
   "devDependencies": {
     "mocha": "^10.4.0",
-    "mochawesome-report-generator": "^6.2.0",
     "mochawesome": "^7.1.3"
   }
 }
