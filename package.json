@@ -2,7 +2,7 @@
   "name": "WE_Steps_Challenge",
   "version": "1.0.0",
   "description": "Steps Challenge for WE",
-  "main": "test.js",
+  "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
@@ -17,10 +17,10 @@
   },
   "homepage": "https://github.com/edwardyun12/WE_Steps_Challenge#readme",
   "dependencies": {
-    "mocha": "^10.4.0",
-    "mochawesome-report-generator": "^6.2.0"
   },
   "devDependencies": {
+    "mocha": "^10.4.0",
+    "mochawesome-report-generator": "^6.2.0",
     "mochawesome": "^7.1.3"
   }
 }
