@@ -1,8 +1,8 @@
 {
-  "name": "we_steps_challenge",
+  "name": "WE_Steps_Challenge",
   "version": "1.0.0",
   "description": "Steps Challenge for WE",
-  "main": "index.js",
+  "main": "test.js",
   "scripts": {
     "test": "mocha"
   },
@@ -10,15 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/edwardyun12/WE_Steps_Challenge.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/edwardyun12/WE_Steps_Challenge/issues"
   },
   "homepage": "https://github.com/edwardyun12/WE_Steps_Challenge#readme",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "mocha": "^10.4.0",
+    "mochawesome-report-generator": "^6.2.0"
+  },
+  "devDependencies": {
     "mochawesome": "^7.1.3"
   }
 }
