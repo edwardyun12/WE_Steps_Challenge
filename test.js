@@ -11,7 +11,7 @@ describe('Step Challenges Unit Tests Part 1!', function () {
 
   describe('Step Challenges Unit Tests Part 2!', function () {
     it('should return the Integer with the valid number of Steps!', ()=> {
-      assert.equal(120000, 120000);
+      assert.equal(120000, 20000);
     });
     it("Type Should be matching", ()=> {
       assert.equal(typeof("Christoper Topp"), "number");

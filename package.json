@@ -4,7 +4,7 @@
   "description": "Steps Challenge for WE",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha test.js --reporter mochawesome --autoOpen true" 
   },
   "repository": {
     "type": "git",
