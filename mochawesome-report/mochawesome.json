@@ -2,14 +2,14 @@
   "stats": {
     "suites": 2,
     "tests": 4,
-    "passes": 3,
+    "passes": 2,
     "pending": 0,
-    "failures": 1,
-    "start": "2024-05-30T15:57:44.907Z",
-    "end": "2024-05-30T15:57:44.925Z",
-    "duration": 18,
+    "failures": 2,
+    "start": "2024-05-31T14:12:54.586Z",
+    "end": "2024-05-31T14:12:54.602Z",
+    "duration": 16,
     "testsRegistered": 4,
-    "passPercent": 75,
+    "passPercent": 50,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "2eaf751e-9e52-4386-b264-4084c2376438",
+      "uuid": "2680dfe7-33fc-470c-80e6-16c3b0722d3b",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "c2c042d0-3a69-4f36-afda-b0435c5514f5",
+          "uuid": "7c73dd42-1966-44d9-bb5a-0e050b4d403a",
           "title": "Step Challenges Unit Tests Part 1!",
           "fullFile": "D:\\Work_Experience\\WE_Steps_Challenge\\test.js",
           "file": "\\test.js",
@@ -47,8 +47,8 @@
               "context": null,
               "code": "assert.equal([1, 2, 3].indexOf(4), -1);",
               "err": {},
-              "uuid": "5f2a5f85-d9f3-4d1f-8a18-2c824796bcce",
-              "parentUUID": "c2c042d0-3a69-4f36-afda-b0435c5514f5",
+              "uuid": "29091114-63e4-41fa-8dc4-8178010ebb2a",
+              "parentUUID": "7c73dd42-1966-44d9-bb5a-0e050b4d403a",
               "isHook": false,
               "skipped": false
             },
@@ -65,16 +65,16 @@
               "context": null,
               "code": "assert.equal(\"Test String\", \"Test String\");",
               "err": {},
-              "uuid": "0253815a-2896-47fa-8dc8-13b7f57ce51a",
-              "parentUUID": "c2c042d0-3a69-4f36-afda-b0435c5514f5",
+              "uuid": "c8926d4f-44bf-4ab0-ac80-97161388b371",
+              "parentUUID": "7c73dd42-1966-44d9-bb5a-0e050b4d403a",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "5f2a5f85-d9f3-4d1f-8a18-2c824796bcce",
-            "0253815a-2896-47fa-8dc8-13b7f57ce51a"
+            "29091114-63e4-41fa-8dc4-8178010ebb2a",
+            "c8926d4f-44bf-4ab0-ac80-97161388b371"
           ],
           "failures": [],
           "pending": [],
@@ -85,7 +85,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "4638d683-3f52-4124-8e42-0bd85100ddb8",
+          "uuid": "9fbd4c53-5a46-42df-9fb0-6ce338389ce9",
           "title": "Step Challenges Unit Tests Part 2!",
           "fullFile": "D:\\Work_Experience\\WE_Steps_Challenge\\test.js",
           "file": "\\test.js",
@@ -96,17 +96,21 @@
               "title": "should return the Integer with the valid number of Steps!",
               "fullTitle": "Step Challenges Unit Tests Part 2! should return the Integer with the valid number of Steps!",
               "timedOut": false,
-              "duration": 0,
-              "state": "passed",
-              "speed": "fast",
-              "pass": true,
-              "fail": false,
+              "duration": 2,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
               "pending": false,
               "context": null,
-              "code": "assert.equal(120000, 120000);",
-              "err": {},
-              "uuid": "cc5b0e90-79d0-41f5-8de5-21bfc6a5790c",
-              "parentUUID": "4638d683-3f52-4124-8e42-0bd85100ddb8",
+              "code": "assert.equal(120000, 20000);",
+              "err": {
+                "message": "AssertionError: 120000 == 20000",
+                "estack": "AssertionError [ERR_ASSERTION]: 120000 == 20000\n    at Context.<anonymous> (test.js:14:14)\n    at processImmediate (internal/timers.js:464:21)",
+                "diff": "- 120000\n+ 20000\n"
+              },
+              "uuid": "85523b24-108a-41ab-bdc6-410e695eee88",
+              "parentUUID": "9fbd4c53-5a46-42df-9fb0-6ce338389ce9",
               "isHook": false,
               "skipped": false
             },
@@ -114,7 +118,7 @@
               "title": "Type Should be matching",
               "fullTitle": "Step Challenges Unit Tests Part 2! Type Should be matching",
               "timedOut": false,
-              "duration": 3,
+              "duration": 1,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -127,18 +131,17 @@
                 "estack": "AssertionError [ERR_ASSERTION]: 'string' == 'number'\n    at Context.<anonymous> (test.js:17:14)\n    at processImmediate (internal/timers.js:464:21)",
                 "diff": "- string\n+ number\n"
               },
-              "uuid": "76f40ab5-b12a-4508-9457-f23e42a973a9",
-              "parentUUID": "4638d683-3f52-4124-8e42-0bd85100ddb8",
+              "uuid": "0cb37aa3-b554-48a1-bb62-4ed3529414cb",
+              "parentUUID": "9fbd4c53-5a46-42df-9fb0-6ce338389ce9",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
-          "passes": [
-            "cc5b0e90-79d0-41f5-8de5-21bfc6a5790c"
-          ],
+          "passes": [],
           "failures": [
-            "76f40ab5-b12a-4508-9457-f23e42a973a9"
+            "85523b24-108a-41ab-bdc6-410e695eee88",
+            "0cb37aa3-b554-48a1-bb62-4ed3529414cb"
           ],
           "pending": [],
           "skipped": [],
