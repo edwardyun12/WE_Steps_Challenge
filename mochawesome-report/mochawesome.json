@@ -2,14 +2,14 @@
   "stats": {
     "suites": 2,
     "tests": 4,
-    "passes": 2,
+    "passes": 3,
     "pending": 0,
-    "failures": 2,
-    "start": "2024-05-30T14:01:55.278Z",
-    "end": "2024-05-30T14:01:55.297Z",
-    "duration": 19,
+    "failures": 1,
+    "start": "2024-05-30T15:57:44.907Z",
+    "end": "2024-05-30T15:57:44.925Z",
+    "duration": 18,
     "testsRegistered": 4,
-    "passPercent": 50,
+    "passPercent": 75,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "3618b491-8c9d-439c-b58b-cf830482c5c3",
+      "uuid": "2eaf751e-9e52-4386-b264-4084c2376438",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "9d0880d6-3016-4612-b06e-366ede1301d5",
+          "uuid": "c2c042d0-3a69-4f36-afda-b0435c5514f5",
           "title": "Step Challenges Unit Tests Part 1!",
           "fullFile": "D:\\Work_Experience\\WE_Steps_Challenge\\test.js",
           "file": "\\test.js",
@@ -47,8 +47,8 @@
               "context": null,
               "code": "assert.equal([1, 2, 3].indexOf(4), -1);",
               "err": {},
-              "uuid": "328c14f7-3803-48a7-840d-85f27fdc9eb2",
-              "parentUUID": "9d0880d6-3016-4612-b06e-366ede1301d5",
+              "uuid": "5f2a5f85-d9f3-4d1f-8a18-2c824796bcce",
+              "parentUUID": "c2c042d0-3a69-4f36-afda-b0435c5514f5",
               "isHook": false,
               "skipped": false
             },
@@ -56,41 +56,36 @@
               "title": "should match the Test string",
               "fullTitle": "Step Challenges Unit Tests Part 1! should match the Test string",
               "timedOut": false,
-              "duration": 2,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
               "pending": false,
               "context": null,
-              "code": "assert.equal(\"Test String\", \"est String\")",
-              "err": {
-                "message": "AssertionError: 'Test String' == 'est String'",
-                "estack": "AssertionError [ERR_ASSERTION]: 'Test String' == 'est String'\n    at Context.<anonymous> (test.js:9:14)\n    at processImmediate (internal/timers.js:464:21)",
-                "diff": "- Test String\n+ est String\n"
-              },
-              "uuid": "037a9b13-66b4-4b4e-a590-58d3168adb8e",
-              "parentUUID": "9d0880d6-3016-4612-b06e-366ede1301d5",
+              "code": "assert.equal(\"Test String\", \"Test String\");",
+              "err": {},
+              "uuid": "0253815a-2896-47fa-8dc8-13b7f57ce51a",
+              "parentUUID": "c2c042d0-3a69-4f36-afda-b0435c5514f5",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "328c14f7-3803-48a7-840d-85f27fdc9eb2"
+            "5f2a5f85-d9f3-4d1f-8a18-2c824796bcce",
+            "0253815a-2896-47fa-8dc8-13b7f57ce51a"
           ],
-          "failures": [
-            "037a9b13-66b4-4b4e-a590-58d3168adb8e"
-          ],
+          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2,
+          "duration": 0,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "b811efd2-8ae2-4c42-8757-19b31cf974ac",
+          "uuid": "4638d683-3f52-4124-8e42-0bd85100ddb8",
           "title": "Step Challenges Unit Tests Part 2!",
           "fullFile": "D:\\Work_Experience\\WE_Steps_Challenge\\test.js",
           "file": "\\test.js",
@@ -110,44 +105,44 @@
               "context": null,
               "code": "assert.equal(120000, 120000);",
               "err": {},
-              "uuid": "3cfc509b-2b3c-4363-a870-f406034212d0",
-              "parentUUID": "b811efd2-8ae2-4c42-8757-19b31cf974ac",
+              "uuid": "cc5b0e90-79d0-41f5-8de5-21bfc6a5790c",
+              "parentUUID": "4638d683-3f52-4124-8e42-0bd85100ddb8",
               "isHook": false,
               "skipped": false
             },
             {
-              "title": "TBC",
-              "fullTitle": "Step Challenges Unit Tests Part 2! TBC",
+              "title": "Type Should be matching",
+              "fullTitle": "Step Challenges Unit Tests Part 2! Type Should be matching",
               "timedOut": false,
-              "duration": 1,
+              "duration": 3,
               "state": "failed",
               "speed": null,
               "pass": false,
               "fail": true,
               "pending": false,
               "context": null,
-              "code": "assert.equal(typeof(\"Test String\"), string )",
+              "code": "assert.equal(typeof(\"Christoper Topp\"), \"number\");",
               "err": {
-                "message": "AssertionError: 'string' == [Function: bound ]",
-                "estack": "AssertionError [ERR_ASSERTION]: 'string' == [Function: bound ]\n    at Context.<anonymous> (test.js:18:14)\n    at processImmediate (internal/timers.js:464:21)",
-                "diff": null
+                "message": "AssertionError: 'string' == 'number'",
+                "estack": "AssertionError [ERR_ASSERTION]: 'string' == 'number'\n    at Context.<anonymous> (test.js:17:14)\n    at processImmediate (internal/timers.js:464:21)",
+                "diff": "- string\n+ number\n"
               },
-              "uuid": "e58c5996-6474-4b9c-99df-9d8968b9e09e",
-              "parentUUID": "b811efd2-8ae2-4c42-8757-19b31cf974ac",
+              "uuid": "76f40ab5-b12a-4508-9457-f23e42a973a9",
+              "parentUUID": "4638d683-3f52-4124-8e42-0bd85100ddb8",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "3cfc509b-2b3c-4363-a870-f406034212d0"
+            "cc5b0e90-79d0-41f5-8de5-21bfc6a5790c"
           ],
           "failures": [
-            "e58c5996-6474-4b9c-99df-9d8968b9e09e"
+            "76f40ab5-b12a-4508-9457-f23e42a973a9"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 1,
+          "duration": 3,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

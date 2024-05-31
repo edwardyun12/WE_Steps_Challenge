@@ -5,7 +5,7 @@ describe('Step Challenges Unit Tests Part 1!', function () {
       assert.equal([1, 2, 3].indexOf(4), -1);
     });
     it("should match the Test string", ()=> {
-      assert.equal("Test String", "Test String")
+      assert.equal("Test String", "Test String");
     });
   });
 
@@ -14,6 +14,6 @@ describe('Step Challenges Unit Tests Part 1!', function () {
       assert.equal(120000, 120000);
     });
     it("Type Should be matching", ()=> {
-      assert.equal(typeof("Test String"), "string" )
+      assert.equal(typeof("Christoper Topp"), "number");
     });
   });
