@@ -6,25 +6,27 @@ var index = 3;
 function submitResponse() {
     // Your code goes here!
     // Change Array to Object for easy reference.
-    var responses = [document.getElementById('firstName').value,
-                    document.getElementById('lastName').value,
-                    document.getElementById('stepCount').value ]
+    var responses = { firstName : document.getElementById('firstName').value,
+                    lastName: document.getElementById('lastName').value,
+                    stepCount: document.getElementById('stepCount').value }
     if(validateResponse(responses)) {
         addLeaderBoard(responses);
     } else {
-        console.log("There are some missing fields");
+        // Use Toast instead of Window.alert
+        window.alert("Missing/Invalid Field!");
     }
 }
 
 // Test case 2 - Return False if one of the responses contains empty string or valid number or strings
 function validateResponse(responses) {
-
-
     // Your code goes here!
-    for (const element of responses) {
+    for (const element of Object.values(responses)) {
         if (element == "") {
             return false;
         }
+    }
+    if ((parseInt(responses.stepCount)) === "NaN") {
+        return false;
     }
     return true;
 }
