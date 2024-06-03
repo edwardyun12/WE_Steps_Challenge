@@ -33,6 +33,9 @@ function validateResponse(responses) {
 
 // Test case 3 - Add player to the Leaderboard
 function addLeaderBoard(responses) {
+    let firstName = responses[0];
+    let lastName = responses[1];
+    let stepCount = responses[2];
     let resultTable = document.getElementById('sampleTable');
 
     let tableRow = document.createElement('tr'),
@@ -44,12 +47,45 @@ function addLeaderBoard(responses) {
 
     rowHeader.setAttribute("scope","row");
     rowHeader.innerHTML = index;
-    firstNameCell.innerHTML = responses.firstName;
-    lastNameCell.innerHTML = responses.lastName;
-    stepCell.innerHTML = responses.stepCount;
-    badgeCell.innerHTML = 'Insert Badge Here';
+    firstNameCell.innerHTML = firstName;
+    lastNameCell.innerHTML = lastName;
+    stepCell.innerHTML = stepCount;
+    
+    let badges = addBadges(stepCount);
+
+    for (let i = 0; i < badges.length; i++){
+        badgeCell.appendChild(badges[i]);
+    }
 
     tableRow.append(rowHeader, firstNameCell, lastNameCell, stepCell, badgeCell);
     resultTable.append(tableRow);
     index++;
+}
+
+function addBadges(stepCount) {
+    let result = [];
+
+    if (stepCount > 2500){
+        badgeSpan = document.createElement('span');
+        badgeSpan.className = "badge text-bg-bronze";
+        badgeSpan.innerHTML = "Bronze";
+        result.push(badgeSpan);
+    } if (stepCount > 5000) {
+        badgeSpan = document.createElement('span');
+        badgeSpan.className = "badge text-bg-silver";
+        badgeSpan.innerHTML = "Silver";
+        result.push(badgeSpan);
+    } if (stepCount > 10000) {
+        badgeSpan = document.createElement('span');
+        badgeSpan.className = "badge text-bg-gold";
+        badgeSpan.innerHTML = "Gold";
+        result.push(badgeSpan);
+    }if (stepCount > 12000) {
+        badgeSpan = document.createElement('span');
+        badgeSpan.className = "badge text-bg-platinum";
+        badgeSpan.innerHTML = "Platinum";
+        result.push(badgeSpan);
+    }
+
+    return result;
 }
