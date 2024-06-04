@@ -3,10 +3,10 @@
   "name": "we_steps_challenge",
   "version": "1.0.0",
   "description": "Steps Challenge for WE",
+  "type":"commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test.js --reporter mochawesome --autoOpen true",
-    "jest": "mocha test.js --reporter mochawesome --autoOpen true"
+    "test": "mocha unit-test.test.js --reporter mochawesome --autoOpen true"
   },
   "repository": {
     "type": "git",
