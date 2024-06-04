@@ -5,9 +5,9 @@
     "passes": 2,
     "pending": 0,
     "failures": 2,
-    "start": "2024-05-31T14:12:54.586Z",
-    "end": "2024-05-31T14:12:54.602Z",
-    "duration": 16,
+    "start": "2024-06-03T15:24:09.540Z",
+    "end": "2024-06-03T15:24:09.558Z",
+    "duration": 18,
     "testsRegistered": 4,
     "passPercent": 50,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "2680dfe7-33fc-470c-80e6-16c3b0722d3b",
+      "uuid": "bdce9b91-cd74-4c88-b824-464621871193",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,8 +27,8 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "7c73dd42-1966-44d9-bb5a-0e050b4d403a",
-          "title": "Step Challenges Unit Tests Part 1!",
+          "uuid": "78ce38b1-052b-48cd-9d3b-2f39e7759877",
+          "title": "Step Challenges Unit Tests Part 1! - Input Form Tests",
           "fullFile": "D:\\Work_Experience\\WE_Steps_Challenge\\test.js",
           "file": "\\test.js",
           "beforeHooks": [],
@@ -36,7 +36,7 @@
           "tests": [
             {
               "title": "should return -1 when the value is not present",
-              "fullTitle": "Step Challenges Unit Tests Part 1! should return -1 when the value is not present",
+              "fullTitle": "Step Challenges Unit Tests Part 1! - Input Form Tests should return -1 when the value is not present",
               "timedOut": false,
               "duration": 0,
               "state": "passed",
@@ -47,16 +47,16 @@
               "context": null,
               "code": "assert.equal([1, 2, 3].indexOf(4), -1);",
               "err": {},
-              "uuid": "29091114-63e4-41fa-8dc4-8178010ebb2a",
-              "parentUUID": "7c73dd42-1966-44d9-bb5a-0e050b4d403a",
+              "uuid": "ab2bdca5-16fe-4941-9e9b-a137ec023908",
+              "parentUUID": "78ce38b1-052b-48cd-9d3b-2f39e7759877",
               "isHook": false,
               "skipped": false
             },
             {
               "title": "should match the Test string",
-              "fullTitle": "Step Challenges Unit Tests Part 1! should match the Test string",
+              "fullTitle": "Step Challenges Unit Tests Part 1! - Input Form Tests should match the Test string",
               "timedOut": false,
-              "duration": 0,
+              "duration": 1,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -65,28 +65,28 @@
               "context": null,
               "code": "assert.equal(\"Test String\", \"Test String\");",
               "err": {},
-              "uuid": "c8926d4f-44bf-4ab0-ac80-97161388b371",
-              "parentUUID": "7c73dd42-1966-44d9-bb5a-0e050b4d403a",
+              "uuid": "91fd9a54-3d54-4fe4-a34f-8c853079e7ae",
+              "parentUUID": "78ce38b1-052b-48cd-9d3b-2f39e7759877",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "29091114-63e4-41fa-8dc4-8178010ebb2a",
-            "c8926d4f-44bf-4ab0-ac80-97161388b371"
+            "ab2bdca5-16fe-4941-9e9b-a137ec023908",
+            "91fd9a54-3d54-4fe4-a34f-8c853079e7ae"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 0,
+          "duration": 1,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "9fbd4c53-5a46-42df-9fb0-6ce338389ce9",
-          "title": "Step Challenges Unit Tests Part 2!",
+          "uuid": "1b0d39e0-836f-49ba-b99e-c2637ee3ed7d",
+          "title": "Step Challenges Unit Tests Part 2! - Leaderboard Tests",
           "fullFile": "D:\\Work_Experience\\WE_Steps_Challenge\\test.js",
           "file": "\\test.js",
           "beforeHooks": [],
@@ -94,7 +94,7 @@
           "tests": [
             {
               "title": "should return the Integer with the valid number of Steps!",
-              "fullTitle": "Step Challenges Unit Tests Part 2! should return the Integer with the valid number of Steps!",
+              "fullTitle": "Step Challenges Unit Tests Part 2! - Leaderboard Tests should return the Integer with the valid number of Steps!",
               "timedOut": false,
               "duration": 2,
               "state": "failed",
@@ -106,17 +106,17 @@
               "code": "assert.equal(120000, 20000);",
               "err": {
                 "message": "AssertionError: 120000 == 20000",
-                "estack": "AssertionError [ERR_ASSERTION]: 120000 == 20000\n    at Context.<anonymous> (test.js:14:14)\n    at processImmediate (internal/timers.js:464:21)",
+                "estack": "AssertionError [ERR_ASSERTION]: 120000 == 20000\n    at Context.<anonymous> (test.js:15:14)\n    at processImmediate (internal/timers.js:464:21)",
                 "diff": "- 120000\n+ 20000\n"
               },
-              "uuid": "85523b24-108a-41ab-bdc6-410e695eee88",
-              "parentUUID": "9fbd4c53-5a46-42df-9fb0-6ce338389ce9",
+              "uuid": "aab1595c-928f-4adb-b12a-832c1c527552",
+              "parentUUID": "1b0d39e0-836f-49ba-b99e-c2637ee3ed7d",
               "isHook": false,
               "skipped": false
             },
             {
               "title": "Type Should be matching",
-              "fullTitle": "Step Challenges Unit Tests Part 2! Type Should be matching",
+              "fullTitle": "Step Challenges Unit Tests Part 2! - Leaderboard Tests Type Should be matching",
               "timedOut": false,
               "duration": 1,
               "state": "failed",
@@ -125,14 +125,14 @@
               "fail": true,
               "pending": false,
               "context": null,
-              "code": "assert.equal(typeof(\"Christoper Topp\"), \"number\");",
+              "code": "assert.equal(addBadges(300), 300);",
               "err": {
-                "message": "AssertionError: 'string' == 'number'",
-                "estack": "AssertionError [ERR_ASSERTION]: 'string' == 'number'\n    at Context.<anonymous> (test.js:17:14)\n    at processImmediate (internal/timers.js:464:21)",
-                "diff": "- string\n+ number\n"
+                "message": "AssertionError: [] == 300",
+                "estack": "AssertionError [ERR_ASSERTION]: [] == 300\n    at Context.<anonymous> (test.js:18:14)\n    at processImmediate (internal/timers.js:464:21)",
+                "diff": null
               },
-              "uuid": "0cb37aa3-b554-48a1-bb62-4ed3529414cb",
-              "parentUUID": "9fbd4c53-5a46-42df-9fb0-6ce338389ce9",
+              "uuid": "37c09014-e339-429c-ac99-47082db67d85",
+              "parentUUID": "1b0d39e0-836f-49ba-b99e-c2637ee3ed7d",
               "isHook": false,
               "skipped": false
             }
@@ -140,8 +140,8 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "85523b24-108a-41ab-bdc6-410e695eee88",
-            "0cb37aa3-b554-48a1-bb62-4ed3529414cb"
+            "aab1595c-928f-4adb-b12a-832c1c527552",
+            "37c09014-e339-429c-ac99-47082db67d85"
           ],
           "pending": [],
           "skipped": [],
