@@ -54,10 +54,8 @@ function addLeaderBoard(responses) {
     stepCell.innerHTML = responses.stepCount;
     
     let badges = addBadges(responses.stepCount);
-
-    for (let i = 0; i < badges.length; i++){
-        badgeCell.appendChild(badges[i]);
-    }
+    badgeCell.appendChild(badges);
+    
     tableRow.append(rowHeader, firstNameCell, lastNameCell, stepCell, badgeCell);
     resultTable.append(tableRow);
     index++;
@@ -94,31 +92,48 @@ function table2data(tableBody){
   }
 
 function addBadges(stepCount) {
-    let result = [];
-
-    if (stepCount >= 2500 && stepCount < 5000){
-        badgeSpan = document.createElement('span');
-        badgeSpan.className = "badge text-bg-bronze";
-        badgeSpan.innerHTML = "Bronze";
-        result.push(badgeSpan);
+    let result;
+    if (stepCount < 2500){
+        result = document.createElement('span');
+    }if (stepCount >= 2500 && stepCount < 5000){
+        result = createBronzeBadge();
     } if (stepCount >= 5000 && stepCount < 10000) {
-        badgeSpan = document.createElement('span');
-        badgeSpan.className = "badge text-bg-silver";
-        badgeSpan.innerHTML = "Silver";
-        result.push(badgeSpan);
+        result = createSilverBadge();
     } if (stepCount >= 10000 && stepCount < 12000) {
-        badgeSpan = document.createElement('span');
-        badgeSpan.className = "badge text-bg-gold";
-        badgeSpan.innerHTML = "Gold";
-        result.push(badgeSpan);
+        result = createGoldBadge();
     }if (stepCount >= 12000) {
-        badgeSpan = document.createElement('span');
-        badgeSpan.className = "badge text-bg-platinum";
-        badgeSpan.innerHTML = "Platinum";
-        result.push(badgeSpan);
+        result = createPlatinumBadge();
     }
 
     return result;
 }
 
 module.exports = {addBadges}
+
+function createBronzeBadge(){
+    let badgeSpan = document.createElement('span');
+        badgeSpan.className = "badge text-bg-bronze";
+        badgeSpan.innerHTML = "Bronze";
+        return badgeSpan
+}
+
+function createSilverBadge(){
+    let badgeSpan = document.createElement('span');
+        badgeSpan.className = "badge text-bg-silver";
+        badgeSpan.innerHTML = "Silver";
+        return badgeSpan
+}
+
+function createGoldBadge(){
+    let badgeSpan = document.createElement('span');
+        badgeSpan.className = "badge text-bg-gold";
+        badgeSpan.innerHTML = "Gold";
+        return badgeSpan
+}
+
+function createPlatinumBadge(){
+    let badgeSpan = document.createElement('span');
+        badgeSpan.className = "badge text-bg-platinum";
+        badgeSpan.innerHTML = "Platinum";
+        return badgeSpan
+}
