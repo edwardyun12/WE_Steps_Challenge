@@ -22,13 +22,13 @@ function submitResponse() {
 
 // Test case 2 - Return False if one of the responses contains empty string or valid number or strings
 function validateResponse(responses) {
-    // Challenge is to create a for loop to check if the responses field is empty.
+    // Challenge is to create a for loop to check if the responses field is empty. ***
     for (const element of Object.values(responses)) {
         if (element == "") {
             return false;
         }
     }
-    // Checking if the parsed value of stepCount is NaN (Not a Number!)
+    // Checking if the parsed value of stepCount is NaN (Not a Number!) ***
     if (isNaN(parseInt(responses.stepCount))) {
         return false;
     }
@@ -63,7 +63,7 @@ function addLeaderBoard(responses) {
     index++;
 }
 
-function hi() {
+function TODO() {
     // this function gets data from the rows and cells 
 // within an html tbody element
 function table2data(tableBody){

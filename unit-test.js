@@ -3,7 +3,7 @@
     //declare var called numVar below 
     
     //set its value to 22
-
+    
     //do not alter
     return numVar;
   }
@@ -12,7 +12,7 @@
   /** Task 2 - declare a string value */
   function decString() {
     //declare var called strVar below 
-
+    
     //set its value to 'Step Challenges!'
     
     //do not alter
@@ -24,7 +24,7 @@
     //declare var called booVar below 
     
     //set its value to true
-    
+   
     //do not alter
     return booVar;
   }
@@ -32,7 +32,7 @@
   /** Task 4 - take two values and multiply them and return the value */
   function arithmeticOp(valA, valB) {
     //var to hold return value
-   
+    
     // write code to multiply valA and valB and assign the value to retVal
     
     //do not alter
@@ -62,7 +62,7 @@
   /** Task 7 -  take four values and do various comparison operations and return the result */
   function logicOp(valA, valB, valC, valD) {
     //var to hold return value
-  
+    
     // write code to test if (valA is less than valB) AND (valC is equal to valD) and assign the value to retVal
     
     //do not alter
@@ -76,8 +76,17 @@
     //do not alter
     return strToConvert;
   }
+
+/** Task 9 - take in single values and return them as an array */
+function returnArray(var1, var2, var3, var4) {
+    //write code to put the passed values into an array called retArray
+    
+    //do not alter
+    return retArray;
+    }
+      
   
-  /** Task 9 take two strings and cast them to numbers then add them and return the result */
+  /** Bonus Task 10 take two strings and cast them to numbers then add them and return the result */
   function castStrToNumber(strValue1, strValue2) {
     //var to hold return value
     
@@ -89,17 +98,7 @@
     return retVal;
   }
   
-  
-  /** Task 10 - take in single values and return them as an array */
-  function returnArray(var1, var2, var3, var4) {
-    //write code to put the passed values into an array called retArray
-    
-    //do not alter
-    return retArray;
-  }
-  
-  
-  /** Task 11 -  takes in an array and returns a copy of the array with the last element removed */
+  /** Bonus Task 11 - takes in an array and returns a copy of the array with the last element removed */
   function arrayPop(arrToPop) {
     //write code to copy the passed array, remove the last element from the new array and to then return the shortened array
     
@@ -107,7 +106,7 @@
     return retArray;
   }
 
-  /** Bonus Challenge -
+  /** Bonus Task 12 Challenge -
  * write code in this function that takes the salary 
  * amount as a parameter, and calculates the tax payable at a rate of 30%. If 
  * the salary is over £45000 add an extra £5000 to the tax. Subtract the tax from 

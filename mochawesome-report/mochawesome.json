@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 0,
     "failures": 14,
-    "start": "2024-06-04T13:52:05.747Z",
-    "end": "2024-06-04T13:52:05.769Z",
-    "duration": 22,
+    "start": "2024-06-04T15:52:29.503Z",
+    "end": "2024-06-04T15:52:29.522Z",
+    "duration": 19,
     "testsRegistered": 14,
     "passPercent": 0,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "b5b9237e-c2d7-40f6-9b8a-760ef6c3c650",
+      "uuid": "b16d6fc0-f93d-4ff3-a966-c8c2fcf6ed27",
       "title": "",
       "fullFile": "D:\\Work_Experience\\WE_Steps_Challenge\\unit-test.test.js",
       "file": "\\unit-test.test.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "71f6f7e2-4ea4-453b-8f35-1201e82ec6be",
+          "uuid": "5780492e-5ec7-4118-b596-19ed0b24acfd",
           "title": "Unit test challenge!",
           "fullFile": "D:\\Work_Experience\\WE_Steps_Challenge\\unit-test.test.js",
           "file": "\\unit-test.test.js",
@@ -51,8 +51,8 @@
                 "estack": "ReferenceError: numVar is not defined\n    at decNumeric (unit-test.js:8:5)\n    at Context.<anonymous> (unit-test.test.js:6:18)\n    at processImmediate (internal/timers.js:464:21)",
                 "diff": null
               },
-              "uuid": "e958fc58-1d6e-4af2-8a57-86673f409e9b",
-              "parentUUID": "71f6f7e2-4ea4-453b-8f35-1201e82ec6be",
+              "uuid": "58c9c836-2f70-4d53-994b-de8486929ae6",
+              "parentUUID": "5780492e-5ec7-4118-b596-19ed0b24acfd",
               "isHook": false,
               "skipped": false
             },
@@ -73,8 +73,8 @@
                 "estack": "ReferenceError: strVar is not defined\n    at decString (unit-test.js:19:5)\n    at Context.<anonymous> (unit-test.test.js:10:18)\n    at processImmediate (internal/timers.js:464:21)",
                 "diff": null
               },
-              "uuid": "fe820d97-736a-4d66-9053-1dde9c8737af",
-              "parentUUID": "71f6f7e2-4ea4-453b-8f35-1201e82ec6be",
+              "uuid": "2ffdefad-af99-478b-b7ea-bf45e3ef9c28",
+              "parentUUID": "5780492e-5ec7-4118-b596-19ed0b24acfd",
               "isHook": false,
               "skipped": false
             },
@@ -95,8 +95,8 @@
                 "estack": "ReferenceError: booVar is not defined\n    at decBoolean (unit-test.js:29:5)\n    at Context.<anonymous> (unit-test.test.js:14:19)\n    at processImmediate (internal/timers.js:464:21)",
                 "diff": null
               },
-              "uuid": "ae85755e-78db-4ade-9d8c-02798c7046c1",
-              "parentUUID": "71f6f7e2-4ea4-453b-8f35-1201e82ec6be",
+              "uuid": "8f7ae94c-33d2-4fc0-b968-9bf216965352",
+              "parentUUID": "5780492e-5ec7-4118-b596-19ed0b24acfd",
               "isHook": false,
               "skipped": false
             },
@@ -104,7 +104,7 @@
               "title": "Task 4 - Test Arithmetic operator - mulitply",
               "fullTitle": "Unit test challenge! Task 4 - Test Arithmetic operator - mulitply",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -117,8 +117,8 @@
                 "estack": "ReferenceError: retVal is not defined\n    at arithmeticOp (unit-test.js:39:5)\n    at Context.<anonymous> (unit-test.test.js:18:19)\n    at processImmediate (internal/timers.js:464:21)",
                 "diff": null
               },
-              "uuid": "197d24f0-3987-41ba-8091-fec3f209bfae",
-              "parentUUID": "71f6f7e2-4ea4-453b-8f35-1201e82ec6be",
+              "uuid": "cf012817-20de-449f-adee-039f663922da",
+              "parentUUID": "5780492e-5ec7-4118-b596-19ed0b24acfd",
               "isHook": false,
               "skipped": false
             },
@@ -139,14 +139,14 @@
                 "estack": "ReferenceError: retStr is not defined\n    at stringOp (unit-test.js:49:5)\n    at Context.<anonymous> (unit-test.test.js:22:18)\n    at processImmediate (internal/timers.js:464:21)",
                 "diff": null
               },
-              "uuid": "435b0d59-410c-49b8-abcc-02c92aec9b7c",
-              "parentUUID": "71f6f7e2-4ea4-453b-8f35-1201e82ec6be",
+              "uuid": "0580f177-195f-4753-a60d-2d8f9f2aaa43",
+              "parentUUID": "5780492e-5ec7-4118-b596-19ed0b24acfd",
               "isHook": false,
               "skipped": false
             },
             {
-              "title": "Task 6 - Comparison operator - less than true",
-              "fullTitle": "Unit test challenge! Task 6 - Comparison operator - less than true",
+              "title": "Task 6-A - Comparison operator - less than true",
+              "fullTitle": "Unit test challenge! Task 6-A - Comparison operator - less than true",
               "timedOut": false,
               "duration": 0,
               "state": "failed",
@@ -161,16 +161,16 @@
                 "estack": "ReferenceError: retVal is not defined\n    at compOp (unit-test.js:59:5)\n    at Context.<anonymous> (unit-test.test.js:26:18)\n    at processImmediate (internal/timers.js:464:21)",
                 "diff": null
               },
-              "uuid": "33e5c4d9-2edc-4f8f-8196-51bc26ce8b6b",
-              "parentUUID": "71f6f7e2-4ea4-453b-8f35-1201e82ec6be",
+              "uuid": "6129d65b-5d06-4bd4-8d02-a7852743c4fa",
+              "parentUUID": "5780492e-5ec7-4118-b596-19ed0b24acfd",
               "isHook": false,
               "skipped": false
             },
             {
-              "title": " Task 7 - Comparison operator - less than false",
-              "fullTitle": "Unit test challenge!  Task 7 - Comparison operator - less than false",
+              "title": " Task 6-B - Comparison operator - less than false",
+              "fullTitle": "Unit test challenge!  Task 6-B - Comparison operator - less than false",
               "timedOut": false,
-              "duration": 0,
+              "duration": 1,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -183,14 +183,14 @@
                 "estack": "ReferenceError: retVal is not defined\n    at compOp (unit-test.js:59:5)\n    at Context.<anonymous> (unit-test.test.js:30:18)\n    at processImmediate (internal/timers.js:464:21)",
                 "diff": null
               },
-              "uuid": "4d7e3c92-c05c-4885-b8ed-5951773e413c",
-              "parentUUID": "71f6f7e2-4ea4-453b-8f35-1201e82ec6be",
+              "uuid": "0259b8b2-961f-487e-ad83-ef7c6e76703c",
+              "parentUUID": "5780492e-5ec7-4118-b596-19ed0b24acfd",
               "isHook": false,
               "skipped": false
             },
             {
-              "title": "Task 8 - Logical operator - && false",
-              "fullTitle": "Unit test challenge! Task 8 - Logical operator - && false",
+              "title": "Task 7-A - Logical operator - && false",
+              "fullTitle": "Unit test challenge! Task 7-A - Logical operator - && false",
               "timedOut": false,
               "duration": 0,
               "state": "failed",
@@ -205,14 +205,14 @@
                 "estack": "ReferenceError: retVal is not defined\n    at logicOp (unit-test.js:69:5)\n    at Context.<anonymous> (unit-test.test.js:34:18)\n    at processImmediate (internal/timers.js:464:21)",
                 "diff": null
               },
-              "uuid": "53b1f770-ed90-4e13-829a-96afa7a2d3c7",
-              "parentUUID": "71f6f7e2-4ea4-453b-8f35-1201e82ec6be",
+              "uuid": "23799cd4-859d-4a47-90f1-2c0da2b8db25",
+              "parentUUID": "5780492e-5ec7-4118-b596-19ed0b24acfd",
               "isHook": false,
               "skipped": false
             },
             {
-              "title": "Task 9 - Logical operator - && false",
-              "fullTitle": "Unit test challenge! Task 9 - Logical operator - && false",
+              "title": "Task 7-B - Logical operator - && false",
+              "fullTitle": "Unit test challenge! Task 7-B - Logical operator - && false",
               "timedOut": false,
               "duration": 0,
               "state": "failed",
@@ -227,16 +227,16 @@
                 "estack": "ReferenceError: retVal is not defined\n    at logicOp (unit-test.js:69:5)\n    at Context.<anonymous> (unit-test.test.js:38:18)\n    at processImmediate (internal/timers.js:464:21)",
                 "diff": null
               },
-              "uuid": "d2cde137-3e0c-45e9-89fd-c34255d9b660",
-              "parentUUID": "71f6f7e2-4ea4-453b-8f35-1201e82ec6be",
+              "uuid": "00568fed-9765-47bd-9e9c-fd739ca2719e",
+              "parentUUID": "5780492e-5ec7-4118-b596-19ed0b24acfd",
               "isHook": false,
               "skipped": false
             },
             {
-              "title": "Task 10 - Change string var to a number",
-              "fullTitle": "Unit test challenge! Task 10 - Change string var to a number",
+              "title": "Task 8 - Change string var to a number",
+              "fullTitle": "Unit test challenge! Task 8 - Change string var to a number",
               "timedOut": false,
-              "duration": 2,
+              "duration": 1,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -249,36 +249,14 @@
                 "estack": "AssertionError [ERR_ASSERTION]: 'string' == 'number'\n    at Context.<anonymous> (unit-test.test.js:41:12)\n    at processImmediate (internal/timers.js:464:21)",
                 "diff": "- string\n+ number\n"
               },
-              "uuid": "939cf2f2-f85f-4276-a7db-eafcca58617c",
-              "parentUUID": "71f6f7e2-4ea4-453b-8f35-1201e82ec6be",
+              "uuid": "8ca96ab6-de20-4df6-b95f-8c7140008794",
+              "parentUUID": "5780492e-5ec7-4118-b596-19ed0b24acfd",
               "isHook": false,
               "skipped": false
             },
             {
-              "title": "Task 11 - Cast string vars to numbers",
-              "fullTitle": "Unit test challenge! Task 11 - Cast string vars to numbers",
-              "timedOut": false,
-              "duration": 0,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
-              "pending": false,
-              "context": null,
-              "code": "assert.equal(castStrToNumber(\"5\",\"2.2\"), 7.2);\nassert.equal(castStrToNumber(\"7\",\"3\"), 10);",
-              "err": {
-                "message": "ReferenceError: retVal is not defined",
-                "estack": "ReferenceError: retVal is not defined\n    at castStrToNumber (unit-test.js:89:5)\n    at Context.<anonymous> (unit-test.test.js:44:18)\n    at processImmediate (internal/timers.js:464:21)",
-                "diff": null
-              },
-              "uuid": "881683fc-cfb3-4274-a638-9becfbfefa58",
-              "parentUUID": "71f6f7e2-4ea4-453b-8f35-1201e82ec6be",
-              "isHook": false,
-              "skipped": false
-            },
-            {
-              "title": "Task 11 - Test returnArray function",
-              "fullTitle": "Unit test challenge! Task 11 - Test returnArray function",
+              "title": "Task 9 - Test returnArray function",
+              "fullTitle": "Unit test challenge! Task 9 - Test returnArray function",
               "timedOut": false,
               "duration": 0,
               "state": "failed",
@@ -290,19 +268,41 @@
               "code": "var arrTest1 = [5,4,5,4];\nvar arrTest2 = [\"one\", \"two\", \"three\", \"four\"];\nassert.equal(JSON.stringify(returnArray(5,4,5,4)), JSON.stringify(arrTest1));\nassert.equal(JSON.stringify(returnArray(\"one\", \"two\", \"three\", \"four\")), JSON.stringify(arrTest2));",
               "err": {
                 "message": "ReferenceError: retArray is not defined",
-                "estack": "ReferenceError: retArray is not defined\n    at returnArray (unit-test.js:98:5)\n    at Context.<anonymous> (unit-test.test.js:50:33)\n    at processImmediate (internal/timers.js:464:21)",
+                "estack": "ReferenceError: retArray is not defined\n    at returnArray (unit-test.js:85:5)\n    at Context.<anonymous> (unit-test.test.js:46:33)\n    at processImmediate (internal/timers.js:464:21)",
                 "diff": null
               },
-              "uuid": "096562c9-68ff-4881-88b3-d5e570d94c06",
-              "parentUUID": "71f6f7e2-4ea4-453b-8f35-1201e82ec6be",
+              "uuid": "39101687-9b76-4bd9-b000-87169e6e60ee",
+              "parentUUID": "5780492e-5ec7-4118-b596-19ed0b24acfd",
               "isHook": false,
               "skipped": false
             },
             {
-              "title": "Task 12 - Test arrayPop function",
-              "fullTitle": "Unit test challenge! Task 12 - Test arrayPop function",
+              "title": "Bonus Task 10 - Cast string vars to numbers",
+              "fullTitle": "Unit test challenge! Bonus Task 10 - Cast string vars to numbers",
               "timedOut": false,
               "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "assert.equal(castStrToNumber(\"5\",\"2.2\"), 7.2);\nassert.equal(castStrToNumber(\"7\",\"3\"), 10);",
+              "err": {
+                "message": "ReferenceError: retVal is not defined",
+                "estack": "ReferenceError: retVal is not defined\n    at castStrToNumber (unit-test.js:98:5)\n    at Context.<anonymous> (unit-test.test.js:50:18)\n    at processImmediate (internal/timers.js:464:21)",
+                "diff": null
+              },
+              "uuid": "ffa4864f-f50d-41ae-bcd7-bfe839302d95",
+              "parentUUID": "5780492e-5ec7-4118-b596-19ed0b24acfd",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Bonus Task 11 - Test arrayPop function",
+              "fullTitle": "Unit test challenge! Bonus Task 11 - Test arrayPop function",
+              "timedOut": false,
+              "duration": 1,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -312,17 +312,17 @@
               "code": "var arrToPop1 = [5,4,5,4];\nvar arrTest1 = [5,4,5];\nvar arrToPop2 = [\"one\", \"two\", \"three\", \"four\"];\nvar arrTest2 = [\"one\", \"two\", \"three\"];\nassert.equal(JSON.stringify(arrayPop(arrToPop1)), JSON.stringify(arrTest1));\nassert.equal(JSON.stringify(arrayPop(arrToPop2)), JSON.stringify(arrTest2));",
               "err": {
                 "message": "ReferenceError: retArray is not defined",
-                "estack": "ReferenceError: retArray is not defined\n    at arrayPop (unit-test.js:107:5)\n    at Context.<anonymous> (unit-test.test.js:58:31)\n    at processImmediate (internal/timers.js:464:21)",
+                "estack": "ReferenceError: retArray is not defined\n    at arrayPop (unit-test.js:106:5)\n    at Context.<anonymous> (unit-test.test.js:58:31)\n    at processImmediate (internal/timers.js:464:21)",
                 "diff": null
               },
-              "uuid": "a4ac6784-b9d7-4afe-9f07-6f99336d0cec",
-              "parentUUID": "71f6f7e2-4ea4-453b-8f35-1201e82ec6be",
+              "uuid": "4f347561-6e0d-4349-a06c-e948a17fc88a",
+              "parentUUID": "5780492e-5ec7-4118-b596-19ed0b24acfd",
               "isHook": false,
               "skipped": false
             },
             {
-              "title": "Task 13 - Test workoutTax001 function",
-              "fullTitle": "Unit test challenge! Task 13 - Test workoutTax001 function",
+              "title": "Bonus Task 12 - Test workoutTax001 function",
+              "fullTitle": "Unit test challenge! Bonus Task 12 - Test workoutTax001 function",
               "timedOut": false,
               "duration": 0,
               "state": "failed",
@@ -334,11 +334,11 @@
               "code": "// test values 1\nlet arrSalary = workoutTax001(30000); \nassert.equal(arrSalary[0], 9000, \"Tax value < 45000  correct\");\nassert.equal(arrSalary[1], 21000, \"Net salary value < 45000 correct\");\n// test values 2\narrSalary = workoutTax001(45000); \nassert.equal(arrSalary[0], 13500, \"Tax value > 45000 correct\");\nassert.equal(arrSalary[1], 31500, \"Net salary value > 45000 correct\");",
               "err": {
                 "message": "ReferenceError: arrReturn is not defined",
-                "estack": "ReferenceError: arrReturn is not defined\n    at workoutTax001 (unit-test.js:125:5)\n    at Context.<anonymous> (unit-test.test.js:64:19)\n    at processImmediate (internal/timers.js:464:21)",
+                "estack": "ReferenceError: arrReturn is not defined\n    at workoutTax001 (unit-test.js:124:5)\n    at Context.<anonymous> (unit-test.test.js:64:19)\n    at processImmediate (internal/timers.js:464:21)",
                 "diff": null
               },
-              "uuid": "52d8858b-1416-46aa-85fe-6d5d672a9313",
-              "parentUUID": "71f6f7e2-4ea4-453b-8f35-1201e82ec6be",
+              "uuid": "90066d6d-bcd9-44af-aeb4-1de564539d85",
+              "parentUUID": "5780492e-5ec7-4118-b596-19ed0b24acfd",
               "isHook": false,
               "skipped": false
             }
@@ -346,20 +346,20 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "e958fc58-1d6e-4af2-8a57-86673f409e9b",
-            "fe820d97-736a-4d66-9053-1dde9c8737af",
-            "ae85755e-78db-4ade-9d8c-02798c7046c1",
-            "197d24f0-3987-41ba-8091-fec3f209bfae",
-            "435b0d59-410c-49b8-abcc-02c92aec9b7c",
-            "33e5c4d9-2edc-4f8f-8196-51bc26ce8b6b",
-            "4d7e3c92-c05c-4885-b8ed-5951773e413c",
-            "53b1f770-ed90-4e13-829a-96afa7a2d3c7",
-            "d2cde137-3e0c-45e9-89fd-c34255d9b660",
-            "939cf2f2-f85f-4276-a7db-eafcca58617c",
-            "881683fc-cfb3-4274-a638-9becfbfefa58",
-            "096562c9-68ff-4881-88b3-d5e570d94c06",
-            "a4ac6784-b9d7-4afe-9f07-6f99336d0cec",
-            "52d8858b-1416-46aa-85fe-6d5d672a9313"
+            "58c9c836-2f70-4d53-994b-de8486929ae6",
+            "2ffdefad-af99-478b-b7ea-bf45e3ef9c28",
+            "8f7ae94c-33d2-4fc0-b968-9bf216965352",
+            "cf012817-20de-449f-adee-039f663922da",
+            "0580f177-195f-4753-a60d-2d8f9f2aaa43",
+            "6129d65b-5d06-4bd4-8d02-a7852743c4fa",
+            "0259b8b2-961f-487e-ad83-ef7c6e76703c",
+            "23799cd4-859d-4a47-90f1-2c0da2b8db25",
+            "00568fed-9765-47bd-9e9c-fd739ca2719e",
+            "8ca96ab6-de20-4df6-b95f-8c7140008794",
+            "39101687-9b76-4bd9-b000-87169e6e60ee",
+            "ffa4864f-f50d-41ae-bcd7-bfe839302d95",
+            "4f347561-6e0d-4349-a06c-e948a17fc88a",
+            "90066d6d-bcd9-44af-aeb4-1de564539d85"
           ],
           "pending": [],
           "skipped": [],
